@@ -1,14 +1,13 @@
 import React from 'react';
 import Header from '../comp/header';
 import Footer from '../comp/footer';
+import MainContenet from '../comp/MainContenet';
 
 const Html = () => {
   return (
     <>
     <Header/>
-    <main>
-    HTML Page
-    </main>
+    <MainContenet PageName="HTML"/>
   <Footer/>
   </>
   );

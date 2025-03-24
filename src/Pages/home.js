@@ -6,7 +6,7 @@ const Home = () => {
   return (
     <>
       <Header />
-      <MainContenet />
+      <MainContenet PageName="Home"/>
       <Footer />
     </>
   );

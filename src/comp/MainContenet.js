@@ -1,10 +1,10 @@
 import React from 'react';
 
-const MainContenet = () => {
+const MainContenet = ({PageName}) => {
   return (
     <div>
     <main>
-    Home Page
+    {PageName} Page
     </main>
     </div>
   );
