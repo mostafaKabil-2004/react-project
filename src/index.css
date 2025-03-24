@@ -7,6 +7,34 @@ body {
   -moz-osx-font-smoothing: grayscale;
 }
 
-.title , h2 {
-  text-align: center;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
+
+body {
+  font-family: sans-serif;
+  background-color: #f2f2f2;
+  color: #fff;
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+header {
+  padding-bottom: 5px;
+  background-color: #1b1b1b;
+}
+
+h1 {
+  padding: 20px;
+  letter-spacing: 1px;
+}
+
+

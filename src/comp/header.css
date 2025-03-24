@@ -1,0 +1,19 @@
+.show-when-mobile-screen {
+  display: none;
+}
+
+.hide-when-mobile-screen {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+@media (max-width:600px) {
+  .show-when-mobile-screen {
+    display: block;
+  }
+  
+  .hide-when-mobile-screen {
+    display: none;
+  }
+}
